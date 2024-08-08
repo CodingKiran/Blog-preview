@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family: figtree;
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+/* general css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: figtree;
+  margin: 48px;
+}
+
+.main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 360px;
+  height: auto;
+  margin-inline: auto;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid steelblue;
+}
+
+.hero_img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  gap: 8px;
+  padding-top: 16px;
+  align-items: center;
+}
+
+.profile img {
+  width: 24px;
+}
+
+.profile p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sub_head {
+  margin: 12px 0;
+  width: fit-content;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.publish {
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.desc {
+  margin: 12px 0;
+  color: hsl(0, 0%, 42%);
+  line-height: 1.5;
+  font-size: 15px;
+}
